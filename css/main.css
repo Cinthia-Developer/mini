@@ -1,1 +1,142 @@
 /* Inserte su codigo aqui */
+*{
+    outline: 1px solid red;
+}
+/*--------------------------------------header------------------------*/
+header{
+    background-color:#fae20b;
+    height: 500px;
+    color: white;
+    text-align: center;
+    font-family:serif;
+}
+header .boton{
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    background-color: orange;
+    margin-top: 50px;
+}
+header h2{
+  margin-top: 210px;  
+}
+header ul{
+    list-style: none;
+    margin: 20px;
+}
+header ul li{
+    display: inline;
+    margin-right: 30px;
+}
+
+/*--------------------------------fila1--------------------------*/
+.fila1{
+    background-color: #d2d0be;
+    font-family: serif;
+}
+.fila1 .blanco1, .blanco2{
+    height: 540px;
+    width: 430px;
+    background-color: white;
+    margin-top: 50px;
+    padding-top: 5px;
+}
+.fila1 .blanco1{
+    margin-left: 100px;
+}
+.fila1 .blanco2{
+    margin-left: 25px;
+}
+.fila1 .plomo{
+    width: 300px;
+    height: 300px;
+    background-color: #949d97;
+    margin: auto;
+}
+.fila1 .plomo h3{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 120px;
+}
+.fila1 h2{
+    margin:15px 5px;
+    color: dimgray;
+}
+.fila1 p{
+    color: #d2d0be;
+    margin:  auto 20px 15px 20px;
+    text-align: left;
+    font-size: 18px;
+}
+.fila1 .boton{
+    margin: auto;
+    width: 100px;
+    height: 25px;
+    background-color: orange;
+    text-align: center;
+    padding: 3px;
+    color: white;
+}
+
+/*--------------------------------fila2--------------------------*/
+.fila2{
+    background-color: #d2d0be;
+    font-family: serif;
+}
+.fila2 .blanco3, .blanco4{
+    height: 540px;
+    width: 430px;
+    background-color: white;
+    margin-top: 50px;
+    padding-top: 5px;
+    opacity: 5;
+}
+.fila2 .blanco3{
+    margin-left: 100px;
+}
+.fila2 .blanco4{
+    margin-left: 25px;
+}
+.fila2 .plomo{
+    width: 300px;
+    height: 300px;
+    background-color: #949d97;
+    margin: auto;
+}
+.fila2 .plomo h3{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 120px;
+}
+.fila2 h2{
+    margin:15px 5px;
+    color: dimgray;
+}
+.fila2 p{
+    color: #d2d0be;
+    margin:  auto 20px 15px 20px;
+    text-align: left;
+    font-size: 18px;
+}
+.fila2 .boton{
+    margin: auto;
+    width: 100px;
+    height: 25px;
+    background-color: orange;
+    text-align: center;
+    padding: 3px;
+    color: white;
+}
+
+/*--------------------------------footer--------------------------*/
+footer{
+    background-color: #21211d;
+    height: 70px;
+}
+footer p{
+    color: white;
+    font-family: serif;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-left: 40px;
+}
