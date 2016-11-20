@@ -1,7 +1,4 @@
 /* Inserte su codigo aqui */
-*{
-    outline: 1px solid red;
-}
 /*--------------------------------------header------------------------*/
 header{
     background-color:#fae20b;
@@ -10,6 +7,10 @@ header{
     text-align: center;
     font-family:serif;
 }
+header {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
 header .boton{
     width: 100px;
     height: 40px;
@@ -17,8 +18,18 @@ header .boton{
     background-color: orange;
     margin-top: 50px;
 }
+header .boton:hover {
+    color:white;
+    font-size: 20px;  
+    transition: all 3s;
+}
 header h2{
   margin-top: 210px;  
+}
+header h2:hover {
+    color:#f77a40;
+    font-size: 150px;  
+    transition: all 3s;
 }
 header ul{
     list-style: none;
@@ -28,7 +39,11 @@ header ul li{
     display: inline;
     margin-right: 30px;
 }
-
+header li:hover {
+    color:#f77a40;
+    font-size: 30px;  
+    transition: all 3s;
+}
 /*--------------------------------fila1--------------------------*/
 .fila1{
     background-color: #d2d0be;
@@ -127,6 +142,21 @@ header ul li{
     padding: 3px;
     color: white;
 }
+section .boton:hover {
+    color:white;
+    font-size: 18px;  
+    transition: all 3s;
+    background-color: red;
+}
+.blanco1, .blanco2, .blanco3, .blanco4{
+    animation: movimiento1 2s 2;
+}
+@keyframes movimiento1{
+    25%{margin-left: 10px;}
+    50%{margin-top: 10px;}
+    75%{margin-right: 10px;}
+    100%{margin-bottom: 10px;}
+}
 
 /*--------------------------------footer--------------------------*/
 footer{
@@ -139,4 +169,9 @@ footer p{
     font-size: 18px;
     padding-top: 15px;
     padding-left: 40px;
+}
+footer p:hover {
+    color:white;
+    font-size: 30px;  
+    transition: all 3s;
 }
